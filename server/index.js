@@ -12,7 +12,7 @@ app.use(express.urlencoded({ limit: "25mb", extended: true }));
 app.use(cors());
 app.use('/arts', artsRoutes);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 mongoose
     .connect(process.env.URL, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false})

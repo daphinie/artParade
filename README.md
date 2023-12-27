@@ -29,6 +29,6 @@ The app should be at http://localhost:3000/
 
 # Environment variables
 `server/.env` for [MongoDB Atlas credentials](https://www.mongodb.com/cloud/atlas/register)<br/>
-`PORT = 5000`<br/>
+`PORT = 5001`<br/>
 `URL = `
 
